@@ -8,12 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
     crossorigin="anonymous">
+
+    <!-- include icons in cdn icons, get bootstrap -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
   
 <!-- start navigation bar -->
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark"> 
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="#">My Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,6 +44,33 @@
   </nav>
 <!-- end navigation bar -->
 
+
+<!-- start about section-->
+<section>  <!-- we use container to: content always be a center and make it response--> <!-- but div need all width of the screen  -->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img 
+        src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" 
+        class="d-block mx-lg-auto img-fluid" 
+        alt="Bootstrap Themes" Max-width=%100 Max-height=%100 loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
+        <p class="lead">I am frontend develope with a design background, i have google certify in DataStudio, i love <strong>Computer Science</strong>.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a 
+            class="btn btn-primary btn-lg px-4 me-md-2"
+             href="https://github.com/Chawa1"> 
+             <i class="bi bi-github"></i> <!-- to bring github icon to button -->
+              View Github </a> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end about section  -->
 
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
