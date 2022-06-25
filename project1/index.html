@@ -29,6 +29,25 @@
     </nav>
     <!-- end navigation bar -->
 
+    <!-- unsplash image resizer -->
+    <div class="container">
+      <form action="#">
+        <div class="my-3">
+          <label for="url">Unsplash URL</label>
+          <input type="text" id="url" />
+        </div>
+        <div class="my-3">
+          <label for="height">height</label>
+          <input type="text" id="height" />
+        </div>
+        <div class="my-3">
+          <label for="width">width</label>
+          <input type="text" id="width" />
+        </div>
+        <button class="btn btn-primary" onclick="resize()">resize</button>
+      </form>
+    </div>
+
     <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
